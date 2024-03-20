@@ -1,0 +1,9 @@
+version: "3"
+services:
+  autobotzi:
+    image: victorbln/autobotzi2:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
